@@ -17,3 +17,4 @@ Check-list com itens que EU considero importantes em um CRUD
   - [ ] Permitir ordenar por TODAS as colunas da lista, mesmo em listas genéricas onde se pode adicionar mais colunas
   - [ ] A ordenação de cada coluna deve conter 3 estados: ASC, DESC e desativada
   - [ ] A ordenação de uma coluna não deve desativar a ordenação de outra
+  - [ ] Salvar na URL a ordenação de cada campo e utilizar quando recarregar a página. Repetir o parâmetro em forma de array quando houver mais de um campo (`?order=nome,ASC` ou `?order[]=nome,ASC&order[]=id,DESC`)
